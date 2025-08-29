@@ -1,0 +1,8 @@
+Command: ninja all
+[1/4] cd /home/pedro/git/VOL-rewrite/ecu_vol/build && /home/pedro/.local/espressif/python_env/idf6.0_py3.13_env/bin/python /home/pedro/Downloads/github/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/pedro/git/VOL-rewrite/ecu_vol/build/partition_table/partition-table.bin /home/pedro/git/VOL-rewrite/ecu_vol/build/ecu_vol.bin
+ecu_vol.bin binary size 0x27b50 bytes. Smallest app partition is 0x100000 bytes. 0xd84b0 bytes (84%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /home/pedro/git/VOL-rewrite/ecu_vol/build/bootloader && /home/pedro/.local/espressif/python_env/idf6.0_py3.13_env/bin/python /home/pedro/Downloads/github/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/pedro/git/VOL-rewrite/ecu_vol/build/bootloader/bootloader.bin
+Bootloader binary size 0x66f0 bytes. 0x910 bytes (8%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'
