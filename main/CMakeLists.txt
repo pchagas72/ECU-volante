@@ -1,2 +1,3 @@
-idf_component_register(SRCS "ecu_vol.c" "stopwatch.c"
-                    INCLUDE_DIRS ".")
+idf_component_register(SRCS "main.c"
+                    INCLUDE_DIRS "."
+                    REQUIRES can_driver stopwatch ui_manager dashboard)

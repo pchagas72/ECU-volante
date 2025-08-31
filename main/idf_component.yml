@@ -1,8 +1,8 @@
+## dependencies managed by idf.py
 dependencies:
-  ## Required IDF version
-  idf:
-    version: ">=4.1.0"
-
-  nopnop2002/ssd1306:
-    path: components/ssd1306/
-    git: https://github.com/nopnop2002/esp-idf-ssd1306.git
+  idf: ">=4.1.0"
+  
+  # Declare the third-party u8g2 component from the registry
+  olikraus/u8g2:
+    version: "*"
+    git: https://github.com/olikraus/u8g2.git

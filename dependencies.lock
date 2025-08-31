@@ -2,18 +2,18 @@ dependencies:
   idf:
     source:
       type: idf
-    version: 6.0.0
-  nopnop2002/ssd1306:
-    component_hash: c118e111d989d2b427ff714bab329405d76deff181bd1bb7356b3b19e74c141b
+    version: 5.5.0
+  olikraus/u8g2:
+    component_hash: 8214a0b634af7a5aa10e4e65c13bf875685bca38fd241891e125a8421bc47631
     dependencies: []
     source:
-      git: https://github.com/nopnop2002/esp-idf-ssd1306.git
-      path: components/ssd1306/
+      git: https://github.com/olikraus/u8g2.git
+      path: .
       type: git
-    version: ddcb2a33daee4723ad8062714e72ba0208462613
+    version: a549a13b13b5fd568111557c1dd7ca3d06fbe21a
 direct_dependencies:
 - idf
-- nopnop2002/ssd1306
-manifest_hash: 54f7a344c288cb6917288c869eb7473a94707ecc27699654e9aeecb5e3749df3
+- olikraus/u8g2
+manifest_hash: 5054a970d7f5bb191a363f058e223fdc9eb0b819c4278b084fd73dd1f79871b6
 target: esp32
 version: 2.0.0
